@@ -9,7 +9,7 @@ This is a typical task in system administration where a user is added for automa
 Connecting to App Server 1:
 
 ```bash
-ssh tony@stapp01
+ssh tony@stapp01 #tony-user, stapp01-servername
 ```
 You are connecting from a jump host (the main control server) to the App Server 1 using the ssh (Secure Shell) command.
 The server IP and key fingerprint are verified and saved for the first time.
