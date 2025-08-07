@@ -20,8 +20,11 @@ sudo useradd -e 2024-04-15 kirsty
 🔍 Explanation:
 
 useradd: command to add a new user.
+
 `-e` stands for `--expirydate`
+
 `-e 2024-04-15`: sets the account expiration date for the user kirsty. After this date, the account will be disabled (not deleted).
+
 #### 📌 Syntax:
 ```bash
 useradd -e YYYY-MM-DD <username>
