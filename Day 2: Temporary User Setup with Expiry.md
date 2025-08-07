@@ -25,12 +25,12 @@ useradd: command to add a new user.
 
 `-e 2024-04-15`: sets the account expiration date for the user kirsty. After this date, the account will be disabled (not deleted).
 
+kirsty: the username being created.
+
 #### 📌 Syntax:
 ```bash
 useradd -e YYYY-MM-DD <username>
 ```
-
-kirsty: the username being created.
 
 ### 3. Set Password for the User:
 ```bash
@@ -43,9 +43,11 @@ Prompts you to set a password for kirsty.
 sudo chage -l kirsty
 ```
 `chage` stands for "change age".
+
 `-l` stands for "list".
 
 🔍 chage -l shows password aging info:
+
 Output:
 
 ```
