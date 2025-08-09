@@ -4,6 +4,10 @@
 Following security audits, the **xFusionCorp Industries** security team has restricted direct root SSH login.  
 Your task is to **disable direct SSH root login** on all app servers in the **Stratos Datacenter**.
 
+"ssh" - Secure Shell.
+
+"sshd" - Secure Shell Daemon.
+
 ---
 
 ## Steps
@@ -43,6 +47,10 @@ Open the SSH daemon configuration file with vi editor.
 ```bash
 vi /etc/ssh/sshd_config
 ```
+"vi" - text editor
+"etc" - contains configuration files for system and application.
+
+"
 
 Locate the line:
 ```shell
