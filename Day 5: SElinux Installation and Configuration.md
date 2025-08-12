@@ -65,7 +65,7 @@ Save and exit (:wq in vi).
 grep SELINUX= /etc/selinux/config
 ```
 
-### 6. Exit from the server
+### 6. Exit from the server:
 
 ```bash
 exit
