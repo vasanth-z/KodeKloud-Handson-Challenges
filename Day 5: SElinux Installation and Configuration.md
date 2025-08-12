@@ -59,7 +59,7 @@ SELINUX=disabled
 ```
 Save and exit (:wq in vi).
 
-### 5. Verify configuration change
+### 5. Verify configuration change:
 
 ```bash
 grep SELINUX= /etc/selinux/config
