@@ -30,7 +30,7 @@ Steps
 ssh banner@stapp03
 ```
 
-### 2. Switch to root user (if required)
+### 2. Switch to root user (if required):
 
 ```bash
 sudo -i
