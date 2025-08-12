@@ -42,7 +42,7 @@ sudo -i
 yum install -y selinux-policy selinux-policy-targeted policycoreutils
 ```
 
-### 4.Edit the SELinux configuration file to disable SELinux permanently
+### 4.Edit the SELinux configuration file to disable SELinux permanently:
 
 ```bash
 vi /etc/selinux/config
