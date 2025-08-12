@@ -36,7 +36,7 @@ ssh banner@stapp03
 sudo -i
 ```
 
-### 3. Install SELinux packages
+### 3. Install SELinux packages:
 
 ```bash
 yum install -y selinux-policy selinux-policy-targeted policycoreutils
