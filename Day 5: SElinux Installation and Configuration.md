@@ -24,7 +24,7 @@ For this task, the required mode is **Disabled**.
 ## **Step-by-Step Instructions**
 
 Steps
-### 1. SSH into App Server 3
+### 1. SSH into App Server 3 :
 
 ```bash
 ssh banner@stapp03
