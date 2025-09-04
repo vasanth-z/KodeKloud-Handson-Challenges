@@ -1,4 +1,4 @@
-# 🎯 Task
+# 🎯 TASK
 
 Install Ansible 4.9.0 on Jump Host using pip3 (not yum/apt).
 Make sure it is available globally (i.e., all users can run ansible).
