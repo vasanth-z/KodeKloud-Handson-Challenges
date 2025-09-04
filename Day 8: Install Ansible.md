@@ -43,7 +43,7 @@ ansible [core 2.11.6]
 
 Note: Ansible version numbers map to core versions. For Ansible 4.9.0, you’ll see ansible-core 2.11.6 inside. That’s correct ✅.
 
-### 4. Make sure all users can access ansible
+### 4. Make sure all users can access ansible:
 
 Since we installed via sudo pip3, the binary will be in a global path (/usr/local/bin/ansible).
 
@@ -70,7 +70,7 @@ source /etc/profile.d/ansible.sh
 
 ----
 
-# 📌 Ansible Installation (Commands & Purpose)
+# 📌 Ansible Installation (Commands & Purpose):
 
 | Command | Purpose |
 |---------|---------|
