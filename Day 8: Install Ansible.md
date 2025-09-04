@@ -5,9 +5,9 @@ Make sure it is available globally (i.e., all users can run ansible).
 
 ----
 
-## ✅ Step-by-Step Solution
+## ✅ Step-by-Step Solution:
 
-### 1. Make sure pip3 is installed
+### 1. Make sure pip3 is installed:
 
 ```bash
 sudo yum install -y python3-pip   # (for RHEL/CentOS)
@@ -16,7 +16,7 @@ sudo apt-get install -y python3-pip   # (for Ubuntu/Debian)
 ```
 
 
-### 2. Install the specific version of Ansible (4.9.0) using pip3
+### 2. Install the specific version of Ansible (4.9.0) using pip3:
 
 ```bash
 sudo pip3 install ansible==4.9.0
