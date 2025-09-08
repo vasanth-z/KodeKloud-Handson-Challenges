@@ -24,6 +24,7 @@ ssh peter@stdb01   # replace with the actual DB server and user
 ```bash
 sudo systemctl status mariadb
 ```
+Here the configuration should show enabled(running).
 
 If it shows inactive/dead/failed, we need to start it.
 
