@@ -106,7 +106,7 @@ After completing the task, to exit the server
 ```
 exit or logout
 ```
-
+Note: This process should be done for the all other App Servers 
 ---
 
 Task Images:
