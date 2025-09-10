@@ -82,7 +82,8 @@ ssh-copy-id clint@stbkp01 #replce with your backup server
 
 ```bash
 ./official_backup.sh
-or
+(or)
+
 bash official_backup.sh
 ```
 
