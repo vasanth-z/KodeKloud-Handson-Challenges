@@ -50,12 +50,12 @@ sudo systemctl status tomcat
 ```
 It shows tomcat.service not found....
 
-### 7. Install tomcat
+### 7. Install tomcat:
 ```bash
 sudo yum install tomcat -y
 ```
 
-### 8.Again check for Tomcat Status
+### 8.Again check for Tomcat Status:
 ```bash
 sudo systemctl status tomcat
 ```
@@ -65,7 +65,7 @@ sudo systemctl status tomcat
 cd /etc/tomcat
 ```
 
-### 10. lookup for server.xml
+### 10. lookup for server.xml:
 ```bash
 cat server.xml
 ```
