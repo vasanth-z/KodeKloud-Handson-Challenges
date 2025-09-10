@@ -41,6 +41,7 @@ vi official_backup.sh #replace the script name given for you.
 ```
 Added the following content:
 
+Note: "change the file names as given to you !!"
 ```bash
 Copy code
 #!/bin/bash
