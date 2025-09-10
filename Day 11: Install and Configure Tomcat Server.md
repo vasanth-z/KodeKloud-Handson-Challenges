@@ -74,6 +74,8 @@ Now change the port in "server.xml"
 ```bash
 sudo vi server.xml
 ```
+- Here change connection port that is given for you eg:8088.
+
 
 ### 11. Now check for the tomcat status:
 
