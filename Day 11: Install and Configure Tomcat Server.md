@@ -1,4 +1,4 @@
-# 📌 Task Description
+# 📌 Task Description:
 
 The Nautilus application development team has built a Java-based web application (as a ROOT.war file).
 You need to deploy this application on App Server 3 using the Tomcat application server with the following requirements:
@@ -13,7 +13,7 @@ Copy the provided ROOT.war file (available on Jump Host under /tmp) to Tomcat’
 
 ## Step by Step Procedure:
 
-### 1.Move to "/tmp"
+### 1.Move to "/tmp":
 ```bash
 cd /tmp
 ```
@@ -24,19 +24,19 @@ cd /tmp
 ls -la
 ```
 
-### 3.Move the ROOT.war file to the given App Server
+### 3.Move the ROOT.war file to the given App Server:
 
 ```bash
 scp /tmp/ROOT.war banner@stapp03:/tmp
 ```
 
-### 4.Now Connect to the App Server
+### 4.Now Connect to the App Server:
 
 ```bash
 ssh baner@stapp02
 ```
 
-### 5.Move to the /tmp file in App Server"
+### 5.Move to the /tmp file in App Server":
 ```bash
 cd /tmp
 ```
