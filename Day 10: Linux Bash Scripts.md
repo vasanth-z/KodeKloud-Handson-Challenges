@@ -1,4 +1,4 @@
-#📌 Task
+#📌 Task:
 The production support team of **xFusionCorp Industries** required a bash script to automate the backup of website files on **App Server 1**.  
 The script should:
 1. Create a zip archive of the `/var/www/html/official` directory.
@@ -9,7 +9,7 @@ The script should:
 
 ---
 
-## ⚠️ Challenge Faced
+## ⚠️ Challenge Faced:
 While starting, the **zip package was not installed** on the server.  
 Since `zip` is essential for creating compressed archives, it had to be installed manually before proceeding.
 
@@ -22,17 +22,17 @@ sudo apt-get install -y zip # For Ubuntu/Debian
 
 ## 🛠️ Steps :
 
-### 1️⃣ Connect to App Server
+### 1️⃣ Connect to App Server:
 ```bash
 ssh banner@stapp01 #replace server given to you
 ```
 
-### 2️⃣ Navigate to Scripts Directory
+### 2️⃣ Navigate to Scripts Directory:
 ```bash
 cd /scripts
 ```
 
-### 3️⃣ Create the Backup Script
+### 3️⃣ Create the Backup Script:
 
 Created a script named official_backup.sh.
 
@@ -104,3 +104,21 @@ Verified the archive exists on Nautilus Backup Server in /backup/:
 ```bash
 ssh clint@stbkp01 "ls -l /backup/"
 ```
+
+OUTPUT IMAGES:
+
+<img width="1775" height="850" alt="Screenshot 2025-09-10 231129" src="https://github.com/user-attachments/assets/dbdc580e-70d5-40c1-8d24-8d2082b2581f" />
+
+<img width="285" height="209" alt="Screenshot 2025-09-10 230433" src="https://github.com/user-attachments/assets/d18b5127-1a4a-49a8-805c-c717f83750f9" />
+
+SCRIPT:
+
+<img width="1731" height="878" alt="Screenshot 2025-09-10 215007" src="https://github.com/user-attachments/assets/5c126be5-0ecd-4121-bbe0-a441df85c115" />
+
+<img width="1766" height="848" alt="Screenshot 2025-09-10 231140" src="https://github.com/user-attachments/assets/1a61187f-43e1-4ddc-8e6a-72741396f278" />
+
+<img width="1762" height="854" alt="Screenshot 2025-09-10 231156" src="https://github.com/user-attachments/assets/af8b7535-4e6e-47d9-b284-e0f5f51c0948" />
+
+<img width="1780" height="849" alt="Screenshot 2025-09-10 231212" src="https://github.com/user-attachments/assets/ed0818c0-2a3b-43c0-9e24-7ae3c2e13fe7" />
+
+<img width="1826" height="897" alt="Screenshot 2025-09-10 231316" src="https://github.com/user-attachments/assets/bf93df3e-7e71-43a3-922c-978e89ce2a0b" />
