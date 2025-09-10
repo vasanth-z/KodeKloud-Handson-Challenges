@@ -18,6 +18,7 @@ Copy the provided ROOT.war file (available on Jump Host under /tmp) to Tomcat’
 cd /tmp
 ```
 
+
 ### 2.Check for "ROOT.war file" in /tmp:
 
 ```bash
