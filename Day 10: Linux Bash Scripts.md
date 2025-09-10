@@ -82,6 +82,7 @@ ssh-copy-id clint@stbkp01 #replce with your backup server
 
 ```bash
 ./official_backup.sh
+
 (or)
 
 bash official_backup.sh
@@ -110,6 +111,7 @@ ssh clint@stbkp01 "ls -l /backup/"
 OUTPUT IMAGES:
 
 <img width="1775" height="850" alt="Screenshot 2025-09-10 231129" src="https://github.com/user-attachments/assets/dbdc580e-70d5-40c1-8d24-8d2082b2581f" />
+
 
 <img width="285" height="209" alt="Screenshot 2025-09-10 230433" src="https://github.com/user-attachments/assets/d18b5127-1a4a-49a8-805c-c717f83750f9" />
 
