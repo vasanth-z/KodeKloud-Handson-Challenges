@@ -88,7 +88,7 @@ status of tomcat:
 ```bash
 sudo systemctl status tomcat
 ```
--The active status: Running..
+-The active status: Running...
 
 ### 12. Copy the ROOT war file to user tomcat:
 ```bash
