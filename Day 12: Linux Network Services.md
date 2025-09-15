@@ -34,7 +34,7 @@ sudo su -
 ```
 Switched to root user to investigate Apache directly.
 
-### 3. Checked Apache service status
+### 3. Checked Apache service status:
 ```bash
 systemctl status httpd
 ```
