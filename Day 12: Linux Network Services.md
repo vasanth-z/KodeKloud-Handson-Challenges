@@ -24,7 +24,7 @@ First attempt failed (No route to host), so you tested with stapp02 and stapp03 
 
 * Confirmed connectivity issue specifically on stapp01.
 
-### 2. Logged in to stapp01
+### 2. Logged in to stapp01:
 ```bash
 ssh tony@stapp01
 ```
