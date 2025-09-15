@@ -92,11 +92,19 @@ OUTPUT IMAGES:
 ## Commands Used and Their Purpose
 
 `telnet stapp01 5000` -	Test if port 5000 on stapp01 is reachable from the jump host.
+
 `ssh tony@stapp01`    -	Log in to stapp01 server as user tony.
+
 `sudo su`             -	Switch to root user for admin access.
+
 `systemctl status httpd` -	Check the status of Apache (httpd) service.
+
 `netstat -lnpt | grep 5000` - netstat-shows the active and listening ports, grep - searches for pattern in text.
+
 `kill 451` -	Kill process with PID 451 (sendmail) that was blocking port 5000.
+
 `systemctl restart httpd`	- Restart the Apache service.
+
 `systemctl status httpd` - 	Confirm Apache is active and running on port 5000.
+
 `curl http://stapp01:5000` - 	Verify Apache is accessible on port 5000 from the jump host.
