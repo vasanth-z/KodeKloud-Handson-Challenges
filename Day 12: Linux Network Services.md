@@ -8,7 +8,7 @@ You must troubleshoot why Apache is down or unreachable and fix it so that curl 
 ----
 
 ## Step by Step Procedure:
-### 1. Checked connectivity from the Jump Host
+### 1. Checked connectivity from the Jump Host:
 ```bash
 telnet stapp01 5000 #replace the port given
 ```
